@@ -1,8 +1,8 @@
 package APIE;
 
 public abstract class Vehicle {
-    private String brand;
-    private String model;
+    private final String brand;
+    private final String model;
 
     public Vehicle(String brand, String model){
         this.brand = brand;
